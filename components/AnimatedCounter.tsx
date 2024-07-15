@@ -3,7 +3,7 @@
 import React from "react";
 
 const AnimatedCounter = ({ amount }: { amount: number }) => {
-  return <div>AnimatedCounter</div>;
+  return <div className="w-full">${amount}</div>;
 };
 
 export default AnimatedCounter;
