@@ -1,3 +1,4 @@
+import { formatAmount } from "@/lib/utils";
 import React from "react";
 
 const TotalBalanceBox = ({
@@ -15,7 +16,7 @@ const TotalBalanceBox = ({
           <p className="total-balance-label">Total Current Balance</p>
 
           <p className="total-balance-amount flex-center gap-2">
-            {totalCurrentBalance}
+            {formatAmount(totalCurrentBalance)}
           </p>
         </div>
       </div>
